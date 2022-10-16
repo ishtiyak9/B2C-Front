@@ -1,0 +1,81 @@
+.poBoxCard{
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.cardBoxBody{
+    display:flex ;
+}
+
+.PoBoxTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* black */
+
+    color: #23262F;
+    margin: 20px 0 10px 2px;
+
+}
+.PoSubTitle{
+    width: 100%;
+    height: auto;
+
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #828B9E;
+
+}
+.poCardSubBtn{
+    min-width: 212px;
+    height: 48px;
+
+    border:1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 90px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+
+    color: #777E90;
+    background-color: #FFFFFF;
+    margin-top: 4px;
+    margin-right: 15px;
+}
+.spanItem{
+    margin-right: 30px;
+}
+.spanViewItem{
+    margin-right: 32px;
+}

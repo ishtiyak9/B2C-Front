@@ -1,0 +1,33 @@
+.sendInviteCard{
+    height: 306px!important;
+}
+.peopleTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #2B3990;
+    /* identical to box height */
+    padding: 30px 30px 0 30px;
+}
+.inviteCustomMargin{
+  margin:10px 30px 20px 10px;
+}
+
+.sendInviteBox2{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* black */
+
+    color: #23262F;
+    margin-left: 15px;
+}

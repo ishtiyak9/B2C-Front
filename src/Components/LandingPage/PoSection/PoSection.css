@@ -1,0 +1,31 @@
+.po-container{
+    background: #FCFCFD;
+}
+.recentPo{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: -0.01em;
+
+    /* Neutrals/2 */
+
+    color: #23262F;
+    margin: 25px;
+}
+.viewAll{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #009444;
+    margin: 25px;
+}

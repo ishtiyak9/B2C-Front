@@ -1,0 +1,197 @@
+.newPoWrapper{
+    width: 847px;
+    height: auto;
+    background: #F9F9F9;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto 8px auto;
+}
+
+.newPoTitle{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: -0.01em;
+
+
+    color: #2B3990!important;
+    text-align: left;
+    padding: 30px 30px 0 30px;
+}
+.newPoForm{
+    max-width: 787px;
+}
+.infoTitle{
+    padding: 0 30px;
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* black */
+
+    color: #23262F;
+
+}
+.poDivideBox1{
+    width: 383px;
+    height: 48px;
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC!important;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 10px 20px 10px 30px;
+}
+.poDividedBox2{
+    margin: 10px 60px 10px 0;
+}
+.poDividedBox3{
+    border: 2px dashed #E0E0E0!important;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.attachDivideBox1{
+    width: 200px;
+    height: 48px;
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 10px 20px 10px 30px;
+}
+
+.attachDivideBox2{
+    margin: 10px 60px 10px 0;
+}
+.poFormBox1{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    /* black */
+
+    color: #23262F;
+    position: relative;
+    left: 30px;
+
+}
+
+input#date {
+    text-indent:10px;
+    /* Extra Styling */
+    border: 1.5px solid #777E91;
+    background-position: left;
+    background-position-x: 20px;
+}
+input#gen {
+    text-indent:10px;
+    /* Extra Styling */
+    border: 1.5px solid #777E91;
+    background-position: left;
+    background-position-x: 20px;
+}
+input#genTextArea{
+    text-indent:10px;
+    /* Extra Styling */
+    border: 1.5px solid #777E91;
+    background-position: left;
+    text-align: start;
+}
+.newPoInput{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC!important;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 787px;
+    height: 48px;
+    margin: 10px 30px 20px 30px;
+}
+.newPoTextArea{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC!important;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 787px;
+    height: 90px;
+    margin: 10px 30px 20px 30px;
+}
+
+/*file css*/
+
+.customFileInput::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.customFileInput::before {
+    content: 'emo';
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.newOptionInput{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC!important;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 787px;
+    height: 48px;
+    margin: 10px 10px 20px 0;
+    text-indent: 10px;
+}
+.newPaymentInput{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC!important;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 383px;
+    height: 48px;
+    margin: 10px 30px 20px 30px;
+    text-indent: 10px;
+}
+.completeBtn{width:160px;
+    height:48px;
+    text-align:center;
+    background:#009444;
+    border-radius:24px;
+    color:#fff;
+    border:none;
+    margin:40px 0 20px 40px}
+
+/*media query*/
+
+@media only screen and (max-width: 600px) {
+    .newPoTitle {
+        text-align: center;
+    }
+
+}

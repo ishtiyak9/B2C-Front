@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+button:hover{
+    cursor: pointer;
+}
+.Navbar{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+}
+
+.Navbar .leftSide{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.Navbar .leftSide .links a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.Navbar .rightSide{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Navbar .rightSide .links a {
+    text-decoration: none;
+}
+.loginSignUpContainer{
+    display: flex!important;
+}
+
+.signupBtn{
+    background: #009444;
+    border-radius: 90px;
+    width: 83px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    order: 0;
+    border: none;
+    flex-grow: 0;
+    margin: 0px 12px;
+    font-family: DM Sans, sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.loginBtn{
+    width: 71px;
+    height: 40px;
+    border: 2px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    font-family: DM Sans, sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+
+    /* Neutrals/2 */
+
+    color: #23262F;
+    text-decoration: none;
+
+}
+
+.loginBtn:hover{
+    text-decoration: none!important;
+    color: inherit!important;
+}
+.signupBtn:hover{
+    text-decoration: none!important;
+    color: #FFFFFF!important;
+}
+
+.rightSide .searchBtn {
+    width: 256px;
+    height: 40px!important;
+    left: calc(50% - 256px/2 + 160px);
+    top: 20px;
+
+    /* Neutrals/6 */
+
+    border: 2px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px 10px 16px;
+
+
+    /* Neutrals/4 */
+    margin: 0px 18px;
+
+}
+.rightSide input[type=text] {
+    /* Caption 2 */
+
+    font-family: Poppins, sans-serif ;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+.logo{
+    width: 100px;
+    height: 52px;
+}
+.searchIcon{
+    width: 16.67px;
+    height: 16.67px;
+    margin-top: 11px;
+    position: relative;
+    left: -17%;
+}
+.countryFlag{
+    width: 30px;
+    height: 30px;
+    margin-right: 12.73px;
+}
+.arrowDown{
+    width: 10.67px;
+    height: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26.67px;
+    margin-top: 12px;
+}
+
+
+
+
+
+select.icon-menu option {
+    background-repeat:no-repeat;
+    background-position:bottom left;
+    padding-left:30px;
+}
+select#countries option[value="US"] {
+    background-image:url('https://i.ibb.co/PTsjmb1/usa.png');
+}
+select#countries option[value="IN"] {
+    background-image:url('https://i.ibb.co/k3CNVWB/saudi.png');
+}
+
+
+
+/* The container <div> - needed to position the dropup content */
+
+#menu>ul>li:hover>ul {
+    bottom:100%;
+}

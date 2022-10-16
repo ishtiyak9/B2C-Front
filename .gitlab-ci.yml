@@ -1,0 +1,38 @@
+variables:
+  GIT_CLEAN_FLAGS: none # disable git clean *** this is important ***
+  CI: 'false'
+
+stages:
+  - build
+  - deploy
+
+default:
+  before_script:
+    - export PATH="$PATH:/root/.nvm/versions/node/v17.3.0/bin"
+
+build:
+  stage: build
+
+  only:
+    - main
+  script:
+    # - npm cache verify
+    # - rm -rf ~/.node-gyp/
+    # - rm -r node_modules/.bin/;
+    # - rm -r build/
+    - npm --version
+    - npm install
+    # - npm install node-sass@latest
+    # - npm audit fix
+    # - npm set audit false
+    - npm run build
+    - echo "Building successfully :)"
+
+deploy:
+  stage: deploy
+  only:
+    - main
+  script:
+    - pwd
+    - cp -r build/. /var/www/html
+    - echo "Deployed successfully :)"

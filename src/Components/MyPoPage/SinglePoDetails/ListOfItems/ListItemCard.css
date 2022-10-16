@@ -1,0 +1,81 @@
+.listContainer{
+    background: #FCFCFD;
+    /* Border */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 20px;
+   width: 100%;
+    height: auto;
+}
+.singleListItemCard{
+    width: 1080px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    margin-left: 30px;
+
+    background: #FFFFFF;
+    /* Border */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.singleItemSubTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #828B9E;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+.singleItemNameBox{
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 48px;
+    background: #F2F4F9;
+    border-radius: 30px;
+
+
+    border:1px solid #E6E8EC;
+    box-sizing: border-box;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* ash */
+
+    color: #777E91;
+    text-align: center;
+    margin: 4px 10px 20px 20px;
+    padding: 10px 20px;
+}
+.itemTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #777E90;
+    margin-right: 20px;
+    padding-right: 20px;
+}

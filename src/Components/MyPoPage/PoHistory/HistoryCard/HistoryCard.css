@@ -1,0 +1,53 @@
+.historyContainer{
+    background: #FCFCFD;
+    border: 1px solid #E6E8EC;
+    /* ds 1 */
+
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    border-radius: 14px;
+    width: 100%;
+}
+#historyChart {
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #777E90;
+
+}
+
+#historyChart td, #historyChart th {
+    padding: 20px;
+}
+
+#historyChart tr:nth-child{
+    margin-top: 20px;
+    background: #FFFFFF;
+
+    border-radius: 10px!important;
+}
+tbody, td, tfoot, th, thead, tr{
+    list-style: none;
+    border-style: none;
+}
+
+
+#historyChart th {
+    padding: 13px 20px;
+    text-align: left;
+    background-color: #E3F2EB;
+    color:#009444;
+}
+
+.historyList{
+    padding: 30px 20px;
+}
+
+.customTr{
+    height: 60px;
+    border-radius: 10px;
+}

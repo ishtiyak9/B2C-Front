@@ -1,0 +1,9 @@
+.itemCard{
+    width: 847px;
+    height: 454px;
+    background: #F9F9F9;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto 30px auto;
+}

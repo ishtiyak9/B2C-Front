@@ -1,0 +1,97 @@
+.sliderBG{
+    width: 1140px;
+    height: 400px;
+    background: #F8F8F8;
+    border-radius: 20px;
+    display: inline-flex!important;
+}
+.sliderImg{
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    margin: 20px 60px 20px 20px;
+}
+.sliderTitle{
+    margin-top: 60px;
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    /* identical to box height, or 89% */
+
+
+    /* Neutrals/2 */
+
+    color: #23262F;
+}
+.sliderSubTitle{
+
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* Neutrals/2 */
+
+    color: #23262F;
+    max-width: 468px;
+    margin-top: 15px;
+
+}
+.sliderPara{
+
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* ash */
+
+    color: #777E91;
+    max-width: 615px;
+
+    margin-top: 30px;
+}
+
+.sliderText{
+    margin: 10px;
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+    position: relative;
+    left: 22px;
+    top: 24px;
+    display: block;
+}
+.slick-prev {
+    left: -32px;
+}
+.slick-next {
+    right: -35px;
+}
+slick-next:before, .slick-prev:before:hover{
+}
+
+.leftArrowCustom{
+    position: relative;
+    left: -8px;
+    top: -213px;
+    z-index: 99;
+    cursor: pointer;
+    display: none;
+}
+.rightArrowCustom{
+    position: relative;
+    right: -1594px;
+    top: 211px;
+    z-index: 100;
+    cursor: pointer;
+    display: none;
+}

@@ -1,0 +1,149 @@
+.customWorkingSection{
+    justify-content: space-between;
+}
+.workingTitle{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #23262F;
+    letter-spacing: -0.02em;
+}
+
+
+/*Toggole*/
+.switch6 {  max-width: 17em;  margin: 0 auto; }
+.switch6-light > span, .switch-toggle > span {  color: #009444; }
+.switch6-light span span, .switch6-light label, .switch-toggle span span, .switch-toggle label {  color: white; }
+
+.switch-toggle a,
+.switch6-light span span { display: none; }
+
+.switch6-light { display: block; height: 30px; position: relative; overflow: visible; padding: 0px; margin-left:0px;cursor: pointer; }
+.switch6-light * { box-sizing: border-box; }
+.switch6-light a { display: block;  }
+
+.switch6-light label,
+.switch6-light > span { line-height: 30px; vertical-align: middle;}
+
+.switch6-light label {font-weight: 700; margin-bottom: px; max-width: 100%;}
+
+.switch6-light input:focus ~ a, .switch6-light input:focus + label { outline: 1px dotted rgb(136, 136, 136); }
+.switch6-light input { position: absolute; opacity: 0; z-index: 5; }
+.switch6-light input:checked ~ a { right: 0%;  }
+.switch6-light > span { position: absolute; left: -100px; width: 100%; margin: 0px; padding-right: 100px; text-align: left; }
+.switch6-light > span span { position: absolute;top: 5px; left: 0px; z-index: 5; display: block; width: 50%; margin-left: 100px; text-align: center; }
+.switch6-light > span span:last-child { left: 50%; }
+.switch6-light a { position: absolute;
+    right: 48%;
+    top: 4px;
+    z-index: 4;
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 0; }
+
+.switch6-light input:checked ~ a { right: 0%;  }
+
+.customToggleBtn{
+    background: #009444!important;
+    border-radius: 90px!important;
+    width: 150px;
+    height: 36px;
+
+
+}
+.sellerText{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    margin-top: 6px;
+
+    /* Neutrals/8 */
+
+
+}
+.requesterText{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    margin-top: 6px;
+}
+
+.solidWorkingType{
+    border-top: 2px solid #E6E8EC;
+    margin: 44px 0 137px 0!important;
+}
+
+
+/*working toggle*/
+.workingTypeContainer ul {
+    list-style-image: url('https://i.ibb.co/VgY852L/filled-Green.png');
+}
+.workingTypeContainer ul>li {
+    margin-bottom: 40px;
+}
+.customText{
+    width: 586px;
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 15px;
+    /* or 171% */
+
+
+    /* Neutrals/4 */
+
+    color: #777E91;
+    text-align: justify-all;
+    display: none;
+
+}
+
+.workingTypeTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    color: #23262F;
+    position: relative;
+    bottom: 8px;
+    margin-left: 15px;
+}
+.workingTypeGap{
+    border: 1px solid #E6E8EC;
+    margin-bottom: 40px;
+}
+.customWorkMargin{
+    margin: 0 20px 30px 40px;
+    width: 216px;
+    height: 240px;
+}
+.customWorkPosition{
+    position: relative;
+    bottom: 100px;
+}
+.customWorkPosition2{
+    position: relative;
+    bottom: 100px;
+}
+
+.open .customText {
+    display: block;
+}

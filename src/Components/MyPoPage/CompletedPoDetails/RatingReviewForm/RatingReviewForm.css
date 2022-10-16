@@ -1,0 +1,14 @@
+.customReviewBox{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 1080px;
+    min-height: 120px;
+    text-indent: 20px;
+}
+.submitReview{
+    text-align: center;
+}

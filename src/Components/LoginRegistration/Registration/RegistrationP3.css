@@ -1,0 +1,97 @@
+.dividedBox1P3{
+    /* Stock */
+    border: 2px dashed #E0E0E0!important;
+}
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+
+}
+.styled-checkbox + label {
+                   position: relative;
+                   cursor: pointer;
+                   padding: 0;
+
+               }
+
+
+.styled-checkbox + label:before {
+      content: '';
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 18px;
+      height: 18px;
+      background: white;
+     border: 1px solid grey;
+  }
+
+
+.styled-checkbox:checked + label:before {
+       background: #009444;
+     margin-top: 4px;
+   }
+
+
+
+.styled-checkbox:checked + label:after {
+       content: '';
+       position: absolute;
+       left: 3px;
+       top: 9px;
+       background: black;
+       width: 2px;
+       height: 2px;
+       box-shadow:
+               2px 0 0 white,
+               4px 0 0 white,
+               4px -2px 0 white,
+               4px -4px 0 white,
+               4px -6px 0 white,
+               4px -8px 0 white;
+       transform: rotate(45deg);
+   }
+
+
+body {
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* black */
+
+    color: #23262F;
+}
+
+.unstyled {
+    margin: 32px 62px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.centered {
+    width: 300px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: rgb(69, 113, 236);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+input#crNumber {
+    background-image: url('https://i.ibb.co/JF24Q38/mailSign.png');
+    background-size:16px 14px;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+    /* Extra Styling */
+    border: 1.5px solid #777E91;
+    background-position: 21px;
+
+}

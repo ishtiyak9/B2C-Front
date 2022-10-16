@@ -1,0 +1,105 @@
+.bannerImg{
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    align-items: flex-end;
+}
+.bannerMargin{
+    margin-top: 204px!important;
+}
+.bannerImgMargin{
+    margin-top: 80px!important;
+}
+.timeText{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-transform: uppercase;
+
+    color: #777E90;
+}
+.headerText{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    /* or 100% */
+
+    letter-spacing: -0.02em;
+
+    color: #009444;
+    width: 545px;
+}
+.headerPara{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Neutrals/4 */
+
+    color: #777E91;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    width: 555px;
+}
+.readBtn{
+    width: 131px;
+    height: 48px;
+
+    background: #009444;
+    border-radius: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    border: none;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    /* Neutrals/8 */
+
+    color: #FCFCFD;
+}
+
+.discoverBtn{
+    background: white;
+    width: 116px;
+    height: 48px;
+    border: 2px solid #009444;
+    box-sizing: border-box;
+    border-radius: 90px;
+
+    /* Button 1 */
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    color: #009444;
+    margin: 0px 12px;
+}

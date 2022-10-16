@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+.rootCard{
+    max-width: 263px;
+    height: 760px;
+    background: #FCFCFD;
+    /* Border */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 40px 0;
+}
+.brandLogo{
+    margin: auto;
+    display: block;
+}
+.brandTitle{
+    /* Body 1 (Bold) */
+
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    color: #009444;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+    text-align: center;
+}
+.brandSubTitle{
+    /* Button 2 */
+
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    color: #777E90;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+    text-align: center;
+}
+
+.brandText{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+
+    /* Neutrals/4 */
+
+    color: #777E91;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px auto;
+    text-align: center;
+    width: 186px;
+}
+
+.MyPoList ul {
+    list-style: none;
+}
+.MyPoList ul> li{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    color: #777E90;
+    /* A */
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 10px 31px;
+    position: relative;
+    left: -30px;
+}
+
+.MyPoList .list-group-item.active{
+    color: #009444;
+}
+
+.createBtn{
+    width: 203px;
+    height: 48px;
+
+    background: #009444;
+    border-radius: 24px;
+    color: white;
+    margin: 30px;
+}
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: 10px;
+}
+.text-link:hover {
+    text-decoration: none;
+    color:  #777E91;
+}
+.text-link:focus{
+    color: #009444;
+
+}
+
+.listImage{
+ margin-bottom: 2px;
+}
+.listImage:focus{
+    color: #009444;
+}

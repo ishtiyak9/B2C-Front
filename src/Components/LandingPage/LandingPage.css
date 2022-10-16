@@ -1,0 +1,23 @@
+hr.solid {
+    border-top: 2px solid #E6E8EC;
+    margin: 20px 0 0 0!important;
+}
+.custom-margin{
+    max-width: 1170px;
+    margin: auto;
+}
+.customPartnerMargin{
+    margin-top: 60px;
+}
+.customCounterMargin{
+    margin-top: 112px;
+}
+.customPOMargin{
+    margin-top: 112px;
+    margin-bottom: 100px!important;
+
+}
+.customWorkingMargin{
+    margin-top: 110px;
+}
+

@@ -1,0 +1,76 @@
+.lastChatWrapper{
+    max-width: 263px;
+    min-height: 200px;
+
+    background: #FCFCFD;
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    /* Drop Shadow */
+
+    box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
+    border-radius: 16px;
+}
+.lastChatTitle{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    /* Blue */
+    color: #2B3990;
+    text-align: left;
+    padding: 37px 0 20px 30px;
+}
+.lastChatBox{
+    display: flex;
+    width: auto;
+    height: 70px;
+    background: #E3F2EB;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 20px;
+}
+.profileIcon{
+    width: 34px;
+    height: 34px;
+    margin: 17px 10px;
+    border-radius: 50%;
+}
+.profileName{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    /* black */
+
+    color: #23262F;
+    text-align: initial;
+
+}
+.chatMain{
+    display: block;
+    margin: 16px 0;
+}
+.chatText{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+
+    color: #777E90;
+}
+
+@media only screen and (max-width: 600px) {
+    .lastChatWrapper {
+        max-width: 100%;
+        margin-top: 40px;
+        min-height: 200px;
+    }
+}

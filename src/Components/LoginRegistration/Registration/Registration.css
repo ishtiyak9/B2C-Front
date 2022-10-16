@@ -1,0 +1,51 @@
+.regWrapper{
+    width: 700px;
+    height: auto;
+    background: #F9F9F9;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto 100px auto;
+}
+
+.textArea{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 580px;
+    height: 90px;
+    margin: 10px 60px 20px 60px;
+}
+
+.dividedBox1{
+    width: 280px;
+    height: 48px;
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 10px 20px 10px 60px;
+}
+
+.dividedBox2{
+    margin: 10px 60px 10px 0;
+}
+.divideBox1label{
+   margin-left: 30px;
+}
+.divideBox2label{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #23262F;
+}
+.regRooter{
+   text-align: center;
+}

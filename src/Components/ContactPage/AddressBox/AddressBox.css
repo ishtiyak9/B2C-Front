@@ -1,0 +1,32 @@
+.addressWrapper{
+    width: 351px;
+    height: 341px;
+    /* Border */
+
+
+    background: #F9F9F9;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    padding: 30px;
+    margin-top: 14px;
+}
+.addressText{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Color 2 */
+
+    color: #23262F;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .addressWrapper {
+        width: 100%;
+    }
+}

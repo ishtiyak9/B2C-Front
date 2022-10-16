@@ -1,0 +1,38 @@
+.reviewDate{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #23262F;
+    width: 82px;
+}
+.reviewTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #009444;
+    margin-bottom: 2px!important;
+
+}
+
+.reviewPara{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #828B9E;
+    margin: 0;
+}

@@ -1,0 +1,39 @@
+.confirmBtn{
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    background: #009444;
+    border-radius: 24px;
+    color: white;
+    border: none;
+}
+.modalFooter2{
+    text-align: center;
+}
+
+.cancelBtn{
+    width: 160px;
+    height: 48px;
+    background: #FFFFFF;
+    /* Green */
+
+    border: 1px solid #009444;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: center;
+
+    /* Green */
+
+    color: #009444;
+    margin-right: 15px;
+}

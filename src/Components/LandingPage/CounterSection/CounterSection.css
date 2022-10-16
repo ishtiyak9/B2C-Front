@@ -1,0 +1,39 @@
+
+.counterCard{
+    background: #e5fff1;
+    border: 1px solid #e7e9ec;
+    box-sizing: border-box;
+    box-shadow: 0 21px 46px -11px rgb(16 17 16 / 10%);
+    border-radius: 10px;
+    height: 216px;
+    text-align: center;
+}
+.counterCard .card-text {
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* black */
+
+    color: #23262F;
+}
+
+.counterCard .card-title {
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    /* Neutrals/2 */
+
+    color: #23262F;
+}

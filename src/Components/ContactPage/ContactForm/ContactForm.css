@@ -1,0 +1,446 @@
+.contactEmailMargin{
+    margin-top: 30px;
+}
+.contactWrapper{
+    width: 730px;
+    height: 557px;
+    margin-top: 13px;
+}
+
+.contactInput{
+    width: 670px;
+}
+.contactText{
+    width : 670px;
+    height: 90px;
+    margin: 10px 30px 20px 30px;
+}
+.BtnRight{
+    text-align: right;
+    margin-right: 30px;
+}
+
+
+/*Navbar*/
+
+@media only screen and (max-width: 600px) {
+    .rightSide .searchBtn{
+        width: 310px!important;
+    }
+    .loginSignUpContainer{
+        display: flex!important;
+        margin-top: 20px;
+    }
+}
+
+
+/*header section*/
+
+@media only screen and (max-width: 600px) {
+    .bannerMargin{
+        margin-top: 40px!important;
+    }
+    .headerText{
+        font-size: 50px;
+        width: auto;
+    }
+    .headerPara{
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+
+/*clients*/
+@media only screen and (max-width: 600px) {
+    .partnersCustom{
+        text-align: center;
+    }
+    .counterCard{margin-bottom: 30px;}
+}
+/*counterSection */
+
+@media only screen and (max-width: 600px) {
+    .counterCard{margin-bottom: 30px;}
+    .workingTitle{
+        text-align: center;
+    }
+}
+/*slider section*/
+@media only screen and (max-width: 600px) {
+    .sliderBG{
+        width: auto;
+        flex-direction: column;
+        height: auto;
+    }
+    .sliderImg{
+        margin: 7px;
+    }
+    .slick-next, .slick-prev{
+        top: 25%;
+    }
+    .slick-next{
+        right: -2%;
+    }
+    .slick-prev {
+        left: -4%;
+    }
+}
+
+/*working section*/
+@media only screen and (max-width: 600px) {
+    .workingTypeContainer{
+        margin: 10px;
+    }
+    .customWorkingMargin{
+        margin: 40px auto;
+    }
+    .solidWorkingType{
+        margin: 40px auto!important;
+    }
+    .workingTitle{
+        text-align: center;
+    }
+    .workingTypeTitle{
+        font-size: 22px;
+    }
+    .customWorkPosition{
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        }
+    .customWorkPosition2{
+        text-align: center;
+        position: relative;
+        bottom: 0;
+    }
+
+
+}
+
+/*root*/
+@media only screen and (max-width: 600px) {
+    .rootCard{
+        max-width: 100%!important;
+    }
+    .createRoot{
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+/*my po box card*/
+
+@media only screen and (max-width: 600px) {
+    .poBoxCard {
+        height: auto;
+    }
+    .cardBoxBody{
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    .CardDetails .d-flex{
+        flex-direction: column;
+    }
+}
+
+/*myPo section*/
+@media only screen and (max-width: 600px) {
+    .customMyPoTitle {
+        font-size: 35px;
+        line-height: normal;
+
+    }
+
+    .customMyPoTitle1 {
+        font-size: 35px;
+        line-height: normal;
+        margin: 20px;
+
+    }
+}
+/*PO card*/
+
+@media only screen and (max-width: 600px) {
+    .viewAll{
+        margin: 18px;
+    }
+    .recentPo{
+        font-size: 35px;
+        margin: 5px;
+    }
+}
+/*create new po */
+@media  only screen and (max-width: 600px) {
+ .newPoWrapper{
+          width: 100%
+ }
+    .newPoWrapper .newOptionInput{
+        width: 300px;
+    }
+    .newPoWrapper .attachDivideBox1{
+        width: 300px;
+    }
+    .newPoWrapper .attachDivideBox2{
+        margin: 10px 60px 10px 30px;
+    }
+}
+/*item card */
+
+@media  only screen and (max-width: 600px) {
+    .itemCard{
+        width: 100%;
+        height: auto;
+    }
+    .newPoForm .d-flex{
+        flex-direction: column;
+    }
+    .newPoForm .newPoInput{
+        width: 300px;
+    }
+    .newPoForm .poDivideBox1{
+        width: 300px!important;
+    }
+    .newPoForm  .newPaymentInput {
+        width: 300px;
+    }
+    .newPoForm .poDividedBox2{
+        margin: 10px 60px 10px 30px;
+    }
+    .newPoForm .newPoTextArea{
+        width: 300px;
+    }
+    .newPoForm .divideBox2label{
+        margin-left: 35px;
+    }
+
+
+}
+/*contact page*/
+@media only screen and (max-width: 600px) {
+
+    .contactInput {
+        width: 318px;
+    }
+    .contactText {
+        width: 318px;
+    }
+    .contactWrapper {
+        width: 100%;
+        height: 500px;
+    }
+    .BtnRight {
+        text-align: center;
+        margin: 0;
+    }
+    .completeBtn{
+        margin: 0;
+    }
+}
+
+/*send Invitaion*/
+
+@media only screen and (max-width: 600px) {
+
+    .userDiv {
+        flex-direction: column;
+    }
+    .sendInviteCard .poDivideBox1 {
+        width: 318px;
+    }
+    .sendInviteBox2{
+        margin-left: 24px;
+    }
+    .inviteCustomMargin{
+        margin-left: 24px;
+    }
+    .peopleTitle{
+        text-align: center;
+    }
+    .companyInfoWrapper {
+        height: auto!important;
+        width: 100%;
+    }
+    .companyInfoWrapper .loginForm .d-flex{
+        flex-direction: column;
+
+    }
+    .companyInfoWrapper .loginForm .compInfoD1P1{
+        width: 300px;
+        margin: 10px 60px 10px 35px;
+    }
+    .companyInfoWrapper .loginForm .compInfoD2P2{
+        width: 300px;
+        margin: 10px 60px 10px 35px;
+    }
+    .companyInfoWrapper .loginForm .divideBox2label{
+        margin: 10px 60px 10px 35px;
+    }
+    .companyInfoWrapper .loginForm .compInfoTextBox{
+        width: 300px;
+    }
+    .sendInviteCard {
+        height: 390px!important;
+    }
+    .totalContainer{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .declineExpiredCard .completeBtn{
+        margin-bottom: 20px;
+    }
+    .companyInfoInput{
+        width: 300px;
+        margin-left: 38px;
+    }
+    .companyInfo{
+        text-align: center;
+    }
+
+}
+
+
+/*po card*/
+
+
+@media only screen and (max-width: 600px) {
+
+    .po-card {
+        width: 100%;
+    }
+
+}
+
+/*footer*/
+
+@media only screen and (max-width: 600px) {
+
+    .logoColumn{
+        text-align: center;
+    }
+    .footerPara1{
+        text-align: center;
+        margin-bottom: 0!important;
+        max-width: 100%!important;
+    }
+    .newsCaption{
+        width: 100%!important;
+        padding: 20px;
+    }
+    .footerHeaderPara{
+        margin: 22px 0 10px 0!important;
+    }
+    .newsLetter{
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .social-media{
+        margin-bottom: 0;
+    }
+    .rightArrow{
+        position: relative!important;
+        left: -45px!important;
+        margin-top: 13px!important;
+    }
+    .rightArrowSign{
+        position: relative!important;
+        left: -69px!important;
+
+    }
+
+}
+
+
+/*congrats wrapper*/
+
+
+@media only screen and (max-width: 600px) {
+    .congratsWrapper{
+        width: 100%!important;
+        margin: 5px auto;
+    }
+    .congratsTitle{
+        text-align: center;
+    }
+    .resetWrapper{
+        width: 100%!important;
+    }
+    .loginForm .passInput{
+        width: 300px;
+        margin: 10px 60px 20px 38px;
+    }
+    .emailLabel{
+        padding-left: 40px!important;
+    }
+    .forgetWrapper {
+        width: 100%!important;
+    }
+    .forgetSpan{
+        left: 134px!important;
+    }
+    .loginForm .loginInput{
+        width: 300px!important;
+        margin: 10px 60px 20px 38px;
+    }
+    .wrapper{
+        width: 100%!important;
+        height: auto;
+    }
+    .forgotPass{
+        padding-bottom: 20px!important;
+    }
+    .wrapper .forgetTitle{
+        justify-content: initial;
+    }
+    .regP2Wrapper{
+        width: 100%!important;
+    }
+    .regWrapper .loginForm .d-flex {
+        flex-direction: column;
+    }
+    .regWrapper .dividedBox1{
+        width: 300px;
+        margin: 10px 20px 10px 40px;
+    }
+    .regP2Wrapper .loginForm .d-flex {
+        flex-direction: column;
+    }
+    .regP2Wrapper .dividedBox1{
+        width: 300px;
+        margin: 10px 20px 10px 40px;
+    }
+    .regWrapper .divideBox2label{
+        margin-left: 40px;
+    }
+    .regP2Wrapper .divideBox2label{
+        margin-left: 40px;
+    }
+    .regWrapper{
+        width: 100%!important;
+    }
+    .regWrapper .textArea{
+        width: 300px;
+        margin: 10px 20px 10px 40px;
+    }
+}
+
+
+/*history container*/
+@media only screen and (max-width: 600px) {
+    .historyContainer{
+    width: auto
+    }
+    .singleListItemCard{
+        width: auto;
+        margin: 30px;
+    }
+    .customReviewBox{
+        width: 300px;
+    }
+    .poSubTitle2{
+        width: 100%;
+    }
+    .poDetailsBoxCard{
+        height: auto!important;
+    }
+}

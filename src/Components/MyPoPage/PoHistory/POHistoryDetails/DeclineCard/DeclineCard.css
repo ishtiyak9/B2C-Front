@@ -1,0 +1,38 @@
+.declineExpiredCard{
+    width: 100%;
+    height: auto;
+    background: #FCFCFD;
+    /* Border */
+
+
+    border-radius: 20px;
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    padding: 24px;
+    margin-top: 30px;
+}
+
+.declineText{
+
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* black */
+
+    color: #23262F;
+}
+.crossSign{
+    width: 80px;
+    height: 80px;
+    background: #EA4848;
+    border-radius: 50%;
+    text-align: center;
+    margin: 16px auto 40px auto;
+}

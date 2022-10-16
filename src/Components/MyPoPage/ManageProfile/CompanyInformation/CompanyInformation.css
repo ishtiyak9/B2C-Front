@@ -1,0 +1,51 @@
+.companyInfo{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    padding: 30px 30px 0 30px;
+
+}
+.companyInfoWrapper{
+    width: 100%;
+    height: auto;
+    background: #F9F9F9;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 40px auto 30px auto;
+}
+
+.companyInfoInput{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 787px;
+    height: 48px;
+    margin: 10px 60px 20px 30px;
+}
+
+.compInfoD1P1{
+    width:
+            383px!important;
+    margin: 10px 20px 10px 30px!important;
+}
+
+.compInfoD2P2{
+    width:
+            383px!important;
+    margin: 10px 60px 10px 0!important;
+}
+.compInfoTextBox{
+    width :787px!important;
+    height: 90px;
+    margin: 10px 30px 20px 30px!important;
+}
+.comInfoPadding{
+    padding-left: 30px!important;
+}

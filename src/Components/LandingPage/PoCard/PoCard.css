@@ -1,0 +1,170 @@
+.po-card{
+    width: 255px;
+    min-height: 332px;
+    background: #FFFFFF;
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    border-radius: 16px;
+    padding: 30px 20px;
+    margin: 15px auto;
+}
+.avatar{
+    border-radius: 50%;
+
+}
+.card-texts{
+    width: 215px;
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #828B9E;
+
+}
+.card-subtitle-button{
+    width: 160px;
+    height: 40px;
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 90px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+
+    color: #777E90;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+}
+.titleBox{
+    height: 47px!important;
+    margin-top: 23px;
+}
+.cardTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #009444;
+    margin-bottom: 2px!important;
+    margin: 0 15px;
+
+}
+.cardSubtitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #777E90;
+    margin-top: 0px!important;
+    margin: 0 15px;
+
+}
+.spanTittle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    /* Neutrals/4 */
+
+    color: #777E91;
+    max-width: 19px;
+}
+
+.output{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #009444;
+    max-width: 19px;
+}
+
+.poNo{
+    width: 125px;
+    height: 30px;
+    /* Neutrals/6 */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    color: #009444;
+    background-color: white;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rating{
+font-family: Poppins sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #F2B556;
+    margin-bottom: 0!important;
+}
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.on {
+    color: #F2B556;
+}
+.off {
+    color: #ccc;
+}
+
+.shareIcon{
+    margin-right: 20px;
+}

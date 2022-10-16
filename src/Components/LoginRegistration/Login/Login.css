@@ -1,0 +1,142 @@
+/*custom*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+.wrapper{
+    width: 700px;
+    height: auto;
+    background: #F9F9F9;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto 100px auto;
+}
+.formFooter{
+    padding-bottom: 20px;
+    display: inline-flex!important;
+}
+.loginTitle{
+    font-family: DM Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: -0.02em;
+
+    color: #2B3990!important;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+.loginInput{
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 580px;
+    height: 48px;
+    margin: 10px 60px 20px 60px;
+}
+.passInput{
+    width: 580px;
+    height: 48px;
+    background: #FFFFFF;
+    /* Stock */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 10px 60px 20px 60px;
+}
+
+.loginButton{
+    width: 160px;
+    height: 48px;
+
+    background: #009444;
+    border-radius: 24px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+.forgetSpan{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    /* ash */
+
+    color: #777E91;
+    position: relative;
+    left: 100px;
+}
+.forgotPass{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* black */
+
+    color: #23262F;
+    text-decoration: none;
+    pointer-events: none;
+    padding-bottom: 20px;
+
+}
+.registerText{
+    color:  #009444;
+    margin-left: 2px!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.registerText:hover{
+    color:  #009444;
+    text-decoration: none;
+}
+
+
+.loginForm ::placeholder {
+    padding: 17px 21px!important;
+}
+
+input#login {
+    background-image: url('https://i.ibb.co/JF24Q38/mailSign.png');
+    background-size:16px 14px;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+    /* Extra Styling */
+    border: 1.5px solid #777E91;
+    background-position: 21px;
+
+}
+
+input#password {
+    background-image: url('https://i.ibb.co/5rCVbtp/lock.png');
+    background-size:16px 14px;
+    background-repeat: no-repeat;
+    /* Extra Styling */
+    border: 1.5px solid #777E91;
+    text-indent: 25px;
+    background-position: left;
+    background-position-x: 21px;
+}
+.forgetTitle{
+    justify-content: space-between;
+}
